@@ -4,24 +4,26 @@ import java.util.Scanner;
 
 public class Ex7 {
     public static void main(String[] args) {
+        boolean b = false;
+        while (!b) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Input a number: 8");
+        System.out.println("Input a number from 2 to 9");
         int num = scan.nextInt();
+        int result = 0;
 
-        //for(int i1 = 1; i1 <=10; i1++){
-            //for(int i = 1; i <= 10; i++){
-               // System.out.println(num * i);
-           // }
-           // System.out.println("8 * " + i1 + " = ");
-       // }
 
-        OUTER:for (int i = 1; i <=10 ; i++) {
-            INNER:for (int i1 = 1; i1 <=10 ; i1++) {
-            System.out.print("8 * " + i1 + " = ");
-                System.out.println(num * i);
-            continue OUTER;
+            if (num <= 9 && num >= 2) {
+                for (int i = 2; i <= 9; i++) {
+                    result = num * i;
+                    System.out.println(num + " x " + i + " = " + result);
+                }
+
             }
-            //System.out.println(num * i);
+
+            if(num < 2 || num > 9){
+                    System.out.println("Yoy are idiot");
+                }
+
         }
     }
 }
