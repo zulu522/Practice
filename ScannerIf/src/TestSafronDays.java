@@ -30,25 +30,6 @@ public class TestSafronDays {
                 System.out.println("You chose Sunday");
             }
 
-
-        System.out.println("Do you wanna chose again ?");
-        System.out.println("Enter Yes or No to proceed");
-        Scanner scanner1 = new Scanner(System.in);
-        String yaNo = scanner1.nextLine();
-
-        while (!yaNo.equals("Yes") && !yaNo.equals("No")) {
-            System.out.println("You enter wrong word");
-            System.out.println("Try again");
-            yaNo = scanner1.nextLine();
-        }
-
-        if (yaNo.equals("Yes"))
-        System.out.println("You agreed to chose again");
-
-        else if (yaNo.equals("No"))
-              System.out.println("You denied to chose again");
-
-
     }
         public static void main (String[]args){
             days();
