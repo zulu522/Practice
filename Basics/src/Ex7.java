@@ -8,20 +8,19 @@ public class Ex7 {
         System.out.println("Input a number: 8");
         int num = scan.nextInt();
 
-        //for(int i1 = 1; i1 <=10; i1++){
-            //for(int i = 1; i <= 10; i++){
-               // System.out.println(num * i);
-           // }
-           // System.out.println("8 * " + i1 + " = ");
-       // }
-
-        OUTER:for (int i = 1; i <=10 ; i++) {
-            INNER:for (int i1 = 1; i1 <=10 ; i1++) {
-            System.out.print("8 * " + i1 + " = ");
-                System.out.println(num * i);
-            continue OUTER;
-            }
-            //System.out.println(num * i);
+        for (int i = 1; i <= 10; i++) {
+            System.out.print("8 * " + i + " = ");
+            System.out.println(num * i);
         }
+        
+        //OUTER:
+        //for (int i = 1; i <= 10; i++) {
+           // INNER:
+          //  for (int i1 = 1; i1 <= 10; i1++) {
+              //  System.out.print("8 * " + i + " = ");
+               // System.out.println(num * i);
+               // continue OUTER;
+            //}
+        //}
     }
 }
