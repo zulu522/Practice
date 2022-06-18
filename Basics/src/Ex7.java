@@ -5,22 +5,17 @@ import java.util.Scanner;
 public class Ex7 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Input a number: 8");
+        System.out.println("Input a number from 1 to 10");
         int num = scan.nextInt();
+        while (num<1 || num>10){
+            System.out.println("You enter wrong number");
+            System.out.println("Try again");
+            num = scan.nextInt();
+        }
 
         for (int i = 1; i <= 10; i++) {
-            System.out.print("8 * " + i + " = ");
+            System.out.print(num + " x " + i + " = ");
             System.out.println(num * i);
         }
-        
-        //OUTER:
-        //for (int i = 1; i <= 10; i++) {
-           // INNER:
-          //  for (int i1 = 1; i1 <= 10; i1++) {
-              //  System.out.print("8 * " + i + " = ");
-               // System.out.println(num * i);
-               // continue OUTER;
-            //}
-        //}
     }
 }
