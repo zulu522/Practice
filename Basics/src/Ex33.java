@@ -13,6 +13,7 @@ public class Ex33 {
                 System.out.println("You enter wrong digit");
                 System.out.println("Try again");
                 num = scan.nextInt();
+            }
 
             String s = String.valueOf(num);
             char s1 = s.charAt(0);
@@ -21,7 +22,7 @@ public class Ex33 {
             int num2 = Character.getNumericValue(s2);
 
             System.out.println("The sum of the digits is: " + (num1 + num2));
-        }
+
     }
     public static int sumDigits() {
         Scanner input = new Scanner(System.in);
@@ -39,7 +40,7 @@ public class Ex33 {
     }
 
     public static void main(String[] args) {
-        //mySumDigits1();
-        System.out.println("The sum of the digits is: " + sumDigits());
+        mySumDigits1();
+        //System.out.println("The sum of the digits is: " + sumDigits());
     }
 }
