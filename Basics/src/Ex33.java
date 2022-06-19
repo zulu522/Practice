@@ -27,6 +27,7 @@ public class Ex33 {
         Scanner input = new Scanner(System.in);
         System.out.println("Input an integer");
         int n = input.nextInt();
+
         int sum = 0;
         while (n != 0) {
             sum += n % 10;
