@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Basics/Basics.iml" filepath="$PROJECT_DIR$/Basics/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics_w3resources/Basics_w3resources.iml" filepath="$PROJECT_DIR$/Basics_w3resources/Basics_w3resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/Practice.iml" filepath="$PROJECT_DIR$/Practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScannerIf/ScannerIf.iml" filepath="$PROJECT_DIR$/ScannerIf/ScannerIf.iml" />
       <module fileurl="file://$PROJECT_DIR$/StudyScanner/StudyScanner.iml" filepath="$PROJECT_DIR$/StudyScanner/StudyScanner.iml" />
