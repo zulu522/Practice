@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array_w3resource/Array_w3resource.iml" filepath="$PROJECT_DIR$/Array_w3resource/Array_w3resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DifferentThings/ArraysListsCompare/ArraysListsCompare.iml" filepath="$PROJECT_DIR$/DifferentThings/ArraysListsCompare/ArraysListsCompare.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics_w3resources/Basics_w3resources.iml" filepath="$PROJECT_DIR$/Basics_w3resources/Basics_w3resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/DifferentThings/CodewarsCheck/CodewarsCheck.iml" filepath="$PROJECT_DIR$/DifferentThings/CodewarsCheck/CodewarsCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/DifferentThings/DifferentThings.iml" filepath="$PROJECT_DIR$/DifferentThings/DifferentThings.iml" />
