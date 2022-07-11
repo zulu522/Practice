@@ -13,6 +13,7 @@ public class BusStops {
             //System.out.println(counterIN);
             //System.out.println("----------------------------");
         }
+        System.out.println("The one who sleeps " + counterIN);
         return counterIN;
     }
 
@@ -20,7 +21,10 @@ public class BusStops {
         ArrayList<int[]> list = new ArrayList<>();
         list.add(new int[]{10, 0});
         list.add(new int[]{3, 5});
-        list.add(new int[]{2, 5});
+        list.add(new int[]{7, 4});
+        list.add(new int[]{1, 4});
+        list.add(new int[]{2, 2});
+        list.add(new int[]{3, 10});
         countPassengers(list);
     }
 }
