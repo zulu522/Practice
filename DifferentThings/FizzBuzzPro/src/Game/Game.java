@@ -12,11 +12,11 @@ public class Game extends ArraySeq1 {
         for (String s : array) {
             System.out.println("Make your answer:");
             String answer = scan.nextLine();
-            if(s == null){
+            /*if(s == null){
                 System.out.println("Game Over");
                 break;
-            }
-            else if (answer.equals(s)) {
+            }*/
+            if (answer.equals(s)) {
                 System.out.println("You answered right. " + "Your answer was: " + answer);
 
             }
@@ -31,8 +31,9 @@ public class Game extends ArraySeq1 {
         Scanner inputArrayLength = new Scanner(System.in);
         int arrayLength;
         arrayLength = inputArrayLength.nextInt();
-        String [] array = new String[arrayLength + 1];
+        String [] array = new String[arrayLength];
         setArray(array);
         game(array);
+        System.out.println("Game Over");
     }
 }
