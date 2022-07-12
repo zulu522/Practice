@@ -3,7 +3,7 @@ package ArraySequence;
 public class ArraySeq1 {
     public static String[] setArray(String [] array){
 
-        for(int i = 1; i <= array.length - 1; i++){
+        for(int i = 1; i <= array.length; i++){
             if(i % 15 == 0){
                 array[i - 1] = "FizzBuzz";
             }
