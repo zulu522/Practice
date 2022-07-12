@@ -27,7 +27,7 @@ public class Game extends ArraySeq1 {
     }
 
     public static void main(String[] args) {
-        System.out.println("Chose a quantity of digits in the game. For exam");
+        System.out.println("Chose a quantity of digits in the game: ");
         Scanner inputArrayLength = new Scanner(System.in);
         int arrayLength;
         arrayLength = inputArrayLength.nextInt();

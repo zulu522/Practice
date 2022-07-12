@@ -1,7 +1,5 @@
 package ArraySequence;
 
-import java.util.Arrays;
-
 public class ArraySeq1 {
     public static String[] setArray(String [] array){
 
